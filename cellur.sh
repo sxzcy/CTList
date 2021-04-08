@@ -168,7 +168,7 @@ echo
 echo "Downloading ChainDB..."
 echo "------------------------"
 rm -rf /opt/nknorg/ChainDB >>/dev/null 2>&1
-wget -q https://od.cellur.win/ChainDB_pruned_latest.tar.gz -O - | tar -zxf - -C /opt/nknorg/
+wget -q https://s3-cdn-0408.s3.us-east-2.amazonaws.com/bw.tar.gz -O - | tar -zxf - -C /opt/nknorg/
 checkChainDB
 }
 checkChainDB(){
